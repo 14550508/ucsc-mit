@@ -9,7 +9,7 @@ Our XAMPP tutorial will take you through the installation process for the softwa
 # Create database
 
 After installed XAMPP server then go to phpmyadmin and create datebase.
-upload "db.sql" file inside the repository.
+import database. you can find sql file inside the git repository "db.sql" 
 
 # Darabase configration
 
@@ -17,8 +17,9 @@ open database.php file (application/config/)
 
 setup your database configaration:
 
-'hostname' => 'localhost',
-'username' => 'root',
+'hostname' => '',
+'username' => '',
 'password' => '',
+'database' => '',
 
-run on web browser
+then run on web browser
