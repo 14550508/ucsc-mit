@@ -11,7 +11,7 @@ Our XAMPP tutorial will take you through the installation process for the softwa
 After installed XAMPP server then go to phpmyadmin and create datebase.
 import database. you can find sql file inside the git repository "db.sql" 
 
-# Darabase configration
+# Database configration
 
 open database.php file (application/config/)
 
