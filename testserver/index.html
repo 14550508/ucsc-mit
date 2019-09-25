@@ -1,0 +1,79 @@
+<!-- Powered by ceydigital. (http://ceydigital.com/) -->
+<!DOCTYPE html> 
+<html lang="en" ng-app="app">
+ <head> 
+ <meta charset="UTF-8">
+ <base href="http://nanatharana.com/testserver/">
+ <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+ <title>A Raptis & Sons Pty Ltd | Raptis Seafood</title>
+ <link rel="shortcut icon" href="http://nanatharana.com/testserver/images/favicon.ico?v=1481103520601"> 
+ <link rel="stylesheet" href="http://nanatharana.com/testserver/css/fonts.min.css?v=1481103520601">
+ <link rel="stylesheet" href="http://nanatharana.com/testserver/css/bootstrap.min.css?v=1481103520601">
+ <link rel="stylesheet" href="http://nanatharana.com/testserver/css/font-awesome.min.css?v=1481103520601"> 
+ <link rel="stylesheet" href="http://nanatharana.com/testserver/css/sidebar.min.css?v=1481103520601"> 
+ <link rel="stylesheet" href="http://nanatharana.com/testserver/css/fullcalendar.min.css?v=1481103520601">
+ <link rel="stylesheet" href="http://nanatharana.com/testserver/css/tabs.min.css">
+ <link rel="stylesheet" href="http://nanatharana.com/testserver/css/tiles.min.css?v=1481103520601">
+ <link rel="stylesheet" href="http://nanatharana.com/testserver/css/app.min.css?v=1481103520601"> 
+ <script src="http://nanatharana.com/testserver/js/angular.min.js?v=1481103520601"></script>
+ <script src="http://nanatharana.com/testserver/js/angular-resource.min.js?v=1481103520601"></script> 
+ <script src="http://nanatharana.com/testserver/js/app.min.js?v=1481103520601" defer="defer"></script> </head>
+ <body ng-controller="controller" ng-cloak>
+ <div id="wrapper"> 
+ <section ng-include="'header.html'">
+ </section>
+ <section ng-include="'sidebar.html'"></section> 
+ <div id="page-content-wrapper">
+ <button type="button" class="toggle-buttons isClosed" data-toggle="offcanvas"> 
+ <span class="hamb-top"></span> 
+ <span class="hamb-middle"></span> 
+ <span class="hamb-bottom"></span> </button>
+ <div class="title-section"> <h1 class="title">Shopping Centre Home Page</h1> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus fugiat maxime, rem labore quia nesciunt doloremque vel porro. Nihil eaque odit neque fuga ipsam incidunt natus suscipit? Minus, debitis ipsum.</p> </div> 
+ <div class="container-fluid">
+ <div class="row">
+ <div class="col-md-9">
+ <div ng-include="'tabs.html'"></div>
+ <div class="row"> 
+ <div class="col-md-12"> 
+ <hr> <h1 class="heading1">Team Calendar</h1> 
+ <div class="col-md-4"> 
+ <div id="list-view"></div>
+ </div> 
+ <div class="col-md-8">
+ <div id="calendar"></div>
+ </div>
+ </div> 
+ </div>
+ </div> 
+ 
+ <div class="col-md-3 col-sm-2 col-xs-12">
+ <div class="panel panel-default">
+ <div class="panel-heading">Site Owners</div>
+ <div class="panel-body">
+ <div class="checkbox" ng-repeat="item in site_owners">
+ <label> <input type="checkbox"> {{item}} </label>
+ </div>
+ </div>
+ </div>
+ <div class="panel panel-default">
+ <div class="panel-heading">Useful Links</div>
+ <div class="panel-body">
+ <p ng-repeat="item in usefull_links">
+ <a href="http://nanatharana.com/testserver">{{item}}</a>
+ </p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <script src="http://nanatharana.com/testserver/js/jquery.min.js?v=1481103520601">
+ </script>
+ <script src="http://nanatharana.com/testserver/js/bootstrap.min.js?v=1481103520601">
+ </script>
+ <script src="http://nanatharana.com/testserver/js/moment.min.js?v=1481103520601">
+ </script>
+ <script src="http://nanatharana.com/testserver/js/fullcalendar.min.js?v=1481103520601"></script>
+ </body>
+ </html>

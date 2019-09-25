@@ -1,0 +1,75 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** RESET GLOBAL STYLES ***********************/
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 5px 0;
+	font-weight: normal;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+
+blockquote, q {
+    quotes: "" "";
+	margin: 0;
+}
+
+p {
+    margin: 5px 0;
+    padding: 0;
+}
+
+ul {
+    margin: 5px 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    background: url(../images/li.png) no-repeat 0 6px;
+    padding: 0 0 0 15px;
+	margin: 0;
+}
+
+a:link, a:visited {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}

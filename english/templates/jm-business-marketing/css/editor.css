@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** FOR CUSTOM EDITOR SELECTOR ************************/
+
+/* border for images with class = border_img  */
+
+.border_img {
+	border: 5px solid #DADADA;
+}
+
+a.readon:link,
+a.readon:visited {
+	border: none;
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+ 	margin: 0;
+	padding: 3px 5px;
+	vertical-align: middle;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+p.green {
+    padding: 10px;
+    border: 2px solid #49b722;
+}
+
+p.blue {
+    padding: 10px;
+    border: 2px solid #2398b8;
+}
+
+p.red {
+    padding: 10px;
+    border: 2px solid #b82323;
+}
+
+p.orange {
+    padding: 10px;
+    border: 2px solid #feab00;
+}
+
+p.quote, blockquote {
+    padding: 10px 70px 10px 10px;
+    background: url(../images/quote.png) top right no-repeat;
+	border: 2px solid #feab00;
+}
+
+.colortable {
+    border: none;
+}
+
+.colortable th {
+    padding: 8px 10px;
+    font-weight: bold;
+    background: #DADADA;
+}
+
+.colortable td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #DADADA;
+}
+
+ul.linked li {
+    background: url(../images/readon.png) no-repeat 0 7px;
+    margin: 0 0 0 3px;
+    padding: 0 0 0 15px;
+}
+
+ul.special li {
+    background: url("../images/li-special.gif") left 7px no-repeat;
+    margin: 0 0 0 3px;
+    padding: 0 0 0 15px;
+}

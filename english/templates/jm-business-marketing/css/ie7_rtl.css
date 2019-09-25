@@ -1,0 +1,75 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** IE7 RTL ONLY ************************/
+
+.dj-main {
+	direction: ltr;
+	text-align: right;
+}
+
+.dj-main li.dj-up {
+    float: right;
+}
+
+.dj-main li a.dj-up_a {
+	float: none;
+    float: left;
+}
+
+.dj-main li a.dj-up_a span {
+	float: none;
+    float: left;
+}
+
+.dj-main li.hover ul.dj-submenu,
+.dj-main li.active ul.dj-submenu {
+	left: auto;
+	right: 0;
+}
+
+.dj-main li:hover ul.dj-submenu li,
+.dj-main li.active ul.dj-submenu li {
+	float: right; 
+}
+
+.dj-main li.hover li.hover ul, 
+.dj-main li.hover li.hover li.hover ul, 
+.dj-main li.hover li.hover li.hover li.hover ul, 
+.dj-main li.hover li.hover li.hover li.hover li.hover ul,
+.dj-main li:hover li:hover ul, 
+.dj-main li:hover li:hover li:hover ul, 
+.dj-main li:hover li:hover li:hover li:hover ul, 
+.dj-main li:hover li:hover li:hover li:hover li:hover ul {
+    left: auto;
+	right: 210px;
+}
+
+.dj-main ul, 
+.dj-main li.hover ul ul, 
+.dj-main li.hover li.hover ul ul, 
+.dj-main li.hover li.hover li.hover ul ul, 
+.dj-main li.hover li.hover li.hover li.hover ul ul,
+.dj-main ul, 
+.dj-main li:hover ul ul, 
+.dj-main li:hover li:hover ul ul, 
+.dj-main li:hover li:hover li:hover ul ul, 
+.dj-main li:hover li:hover li:hover li:hover ul ul {
+	left: 0;
+    right: auto;
+}
+
+#jm-social-login {
+	width: 600px;
+}
+
+#jm-toplogin ul#mainlevel li a, 
+#jm-toplogin ul.menu li a:link, 
+#jm-toplogin ul.menu li a:visited {
+	line-height: 18px;
+	margin: 11px 0; 
+}

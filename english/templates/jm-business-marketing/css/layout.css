@@ -1,0 +1,136 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** LAYOUT STYLES ***********************/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #000000;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    line-height: 18px;
+}
+
+#jm-allpage {
+	margin: 0 auto;
+}
+
+/********** top **********/
+
+#jm-top {
+	padding: 23px 0 21px 7px;
+}
+
+#jm-logo-sitedesc {
+	float: left;
+}
+
+#jm-logo {
+	padding: 0;
+	margin: 0;
+}
+
+#jm-sitedesc {
+	padding: 5px 0 0 0;
+}
+
+#jm-search {
+	float: right;
+}
+
+/********** topmenu **********/
+
+#jm-topmenu {
+	background: url(../images/topmenu_bg.png) repeat-x top left #c4c4c4;
+	height: 46px;
+	margin-bottom: 10px;
+}
+
+/********** header **********/
+
+#jm-header {
+	margin-bottom: 10px;
+}
+
+/********** main **********/
+
+#jm-pathway {
+	font-size: 11px;
+	margin-bottom: 20px;
+}
+
+#jm-left {
+	float: left;
+	margin-right: 15px;
+}
+
+#jm-right {
+	float: left;
+	margin-left: 15px;
+}
+
+#jm-main {
+	padding-top: 10px;
+}
+
+.scheme_3 #jm-content {
+	float: left;
+}
+
+.scheme_2 #jm-content {
+	float: left;
+}
+
+#jm-maincontent {
+	padding-bottom: 20px;
+}
+
+/********** footer **********/
+
+#jm-footer {
+	background: #dadada;
+	color: #5e5e5e;
+	padding: 5px;
+}
+
+#jm-copyrights {
+	float: left;
+}
+
+#jm-poweredby {
+	float: right;
+}
+
+#jm-stylearea {
+	padding: 10px;
+	height: 15px;
+}
+
+/********** clearfix **********/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix { 	
+	display: inline-block;
+}
+
+/* Hides from IE-mac \*/ * html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block !important;
+}
+
+/* End hide from IE-mac */

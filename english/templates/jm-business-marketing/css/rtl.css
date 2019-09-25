@@ -1,0 +1,309 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** FOR RTL LANGUAGES ************************/
+
+/********** topmenu **********/
+
+.dj-main li.dj-up {
+	float: right;
+    background: url(../images/topmenu_sep.png) no-repeat top left;
+	padding: 0 0 0 2px;
+}
+
+.dj-main li a.dj-up_a {
+	float: right; 
+}
+
+.dj-main li a.dj-up_a span {
+    float: right;
+}
+
+.dj-main li a.dj-up_a span span.image-title {
+	padding: 0 5px 0 0;
+}
+
+.dj-main li.hover ul.dj-submenu,
+.dj-main li:hover ul.dj-submenu {
+	left: auto;
+	right: 0;
+}
+
+.dj-main li.hover ul.dj-submenu li,
+.dj-main li:hover ul.dj-submenu li {
+	float: right; 
+}
+
+.dj-main li.hover li.hover ul, 
+.dj-main li.hover li.hover li.hover ul, 
+.dj-main li.hover li.hover li.hover li.hover ul, 
+.dj-main li.hover li.hover li.hover li.hover li.hover ul,
+.dj-main li:hover li:hover ul, 
+.dj-main li:hover li:hover li:hover ul, 
+.dj-main li:hover li:hover li:hover li:hover ul, 
+.dj-main li:hover li:hover li:hover li:hover li:hover ul {
+    left: auto;
+	right: 210px;
+}
+
+.dj-main ul, 
+.dj-main li.hover ul ul, 
+.dj-main li.hover li.hover ul ul, 
+.dj-main li.hover li.hover li.hover ul ul, 
+.dj-main li.hover li.hover li.hover li.hover ul ul,
+.dj-main ul, 
+.dj-main li:hover ul ul, 
+.dj-main li:hover li:hover ul ul, 
+.dj-main li:hover li:hover li:hover ul ul, 
+.dj-main li:hover li:hover li:hover li:hover ul ul {
+	left: auto;
+    right: 0;
+}
+
+/********** layout **********/
+
+#jm-top {
+	padding: 23px 7px 21px 0;
+}
+
+#jm-logo-sitedesc {
+	float: right;
+}
+
+#jm-search {
+	float: left;
+}
+
+#jm-left {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+#jm-right {
+	float: right;
+	margin-left: 0;
+	margin-right: 15px;
+}
+
+.scheme_3 #jm-content {
+	float: right;
+}
+
+.scheme_2 #jm-content {
+	float: right;
+}
+
+#jm-copyrights {
+	float: right;
+}
+
+#jm-poweredby {
+	float: left;
+}
+
+#jm-pathway span.showHere {
+	margin: 0 0 0 5px;
+}
+
+#jm-pathway span,
+#jm-pathway a:link,
+#jm-pathway a:visited,
+.category-name a:link,
+.category-name a:visited {
+	display: inline-block;
+}
+
+/********** modules **********/
+
+#jm-bottom-mods .rowcount_1 .bottom-in {
+	float: right;
+}
+
+#jm-bottom-mods .rowcount_2 .bottom-in {
+	float: right;
+}
+
+#jm-bottom-mods .rowcount_3 .bottom-in {
+	float: right;
+}
+
+#jm-bottom-mods .rowcount_4 .bottom-in {
+	float: right;
+}
+
+/********** menus **********/
+
+ul#mainlevel li a,
+ul.menu li a:link,
+ul.menu li  a:visited {    
+    text-align: right;
+}
+
+ul.menu li ul li {    
+    padding: 0 15px 0 0;
+ }
+ 
+ul.menu li ul li a:link,
+ul.menu li ul li a:visited,
+ul.menu li ul li.active a, 
+ul.menu li ul li.active li a, 
+ul.menu li ul li.active li li a,
+ul.menu li ul li.active li li li a,
+ul.menu li ul li.active li li li li a {    
+    text-align: right;
+    background: url(../images/li.png) no-repeat right 11px;
+    padding: 5px 15px 5px 10px;
+}
+
+/***reset**/
+
+ul li {
+    background: url(../images/li.png) no-repeat 100% 6px;
+    padding: 0 15px 0 0;
+	margin: 0;
+}
+
+/**global**/
+
+div.registration form#member-registration fieldset dt, 
+div.profile form#member-profile fieldset dt,
+div.profile fieldset#users-profile-core dt,
+div.profile fieldset#users-profile-custom dt,
+div.profile-edit form#member-profile fieldset dt, 
+div.remind fieldset dt, 
+div.reset fieldset dt {
+    float: right;
+}
+
+.category-name a:link,
+.category-name a:visited,
+.parent-category-name a:link,
+.parent-category-name a:visited {
+	display: inline-block;
+}
+
+input.button, button.validate, button {
+ 	margin: 0 5px 0 0;
+}
+
+.inputbox, input.validate-password, input.validate-username, input.required {
+	padding: 2px 2px 2px 0;
+}
+
+input#modlgn-remember {
+    margin: 0 0 0 10px;
+}
+
+ul.pagenav li.pagenav-prev {
+    float: right;
+}
+
+ul.pagenav li.pagenav-next {
+    float: left;
+}
+
+a.pagenav,
+span.pagenav {
+	display: inline-block;
+}
+
+div.blog h2, 
+div.item-page h2, 
+div.blog-featured h2 {
+    text-align: right;
+}
+
+div.blog h1, 
+div.blog-featured h1, 
+div.item-page h1, 
+div.archive h1, 
+div.contact-category h2, 
+div.categories-list h1, 
+div.category-list h1, 
+div.search h1 {
+    text-align: right;
+}
+
+div.blog-featured h2 a:link, 
+div.blog-featured h2 a:visited, 
+div.blog h2 a:link, 
+div.blog h2 a:visited, 
+div.item-page h2 a:link, 
+div.item-page h2 a:visited {
+    text-align: right;
+}
+
+div.contact h2 span.contact-name {
+    text-align: right;
+}
+
+.cols-2 .column-1 {
+    float: right;
+}
+
+.cols-2 .column-2 {
+    float: left;
+}
+
+.cols-3 .column-1, 
+.cols-3 .column-2, 
+.cols-3 .column-3 {
+    float: right;
+}
+
+.cols-4 .column-1, 
+.cols-4 .column-2, 
+.cols-4 .column-3, 
+.cols-4 .column-4 {
+    float: right;
+}
+
+.cols-4 .column-2 {
+	padding: 0 2% 0 1%;
+}
+
+.cols-4 .column-3 {
+	padding: 0 1% 0 2%;
+}
+
+ul.actions {
+    text-align: left;
+}
+
+p.readmore {
+	text-align: left;
+}
+
+/********** Presentation Style: pages **********/
+
+div#article-index {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+div.pagenavcounter {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+/********** Presentation Style: tabs **********/
+
+.tabs dt.tabs {
+	float: right;
+	margin: 0 0 -1px 5px;
+}
+
+/***slider***/
+
+.djslider-loader {
+	direction: ltr;
+}
+
+.slide-desc-text {
+	text-align: right;
+}

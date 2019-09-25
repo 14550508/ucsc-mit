@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** DETAILS OF LAYOUT ELEMENTS ***********************/ 
+
+#jm-search div.search label {
+	vertical-align: middle;
+	margin: 0 10px;
+	font-size: 11px;
+}
+
+#jm-pathway span {
+	font-weight: normal;
+}
+
+#jm-pathway span.showHere {
+    color: #000000;
+    font-weight: bold;
+	margin: 0 5px 0 0;
+}
+
+#jm-pathway img {
+	vertical-align: middle;
+	padding: 0 0 2px 0;
+}
+
+#jm-header p {
+	margin: 0;
+}
+
+#jm-copyrights p {
+	margin: 0;
+}
+
+div.mod-languages ul {
+	list-style: none;
+}
+
+div.mod-languages ul li {
+	background: none;
+	padding: 0;
+}

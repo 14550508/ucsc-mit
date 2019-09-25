@@ -1,0 +1,117 @@
+/*********************** color changes for blue colour ***********************/
+
+/* djmenu */
+
+.dj-main li.hover a.dj-up_a,
+.dj-main li:hover a.dj-up_a, 
+.dj-main li.active a.dj-up_a {
+    background: url(../images/topmenu_hover_blue.png) repeat-x top left;
+}
+
+.dj-main li.hover ul.dj-submenu li a:hover,
+.dj-main li:hover ul.dj-submenu li a:hover, 
+.dj-main li ul.dj-submenu li a.active, 
+.dj-main li ul.dj-submenu li li a.active, 
+.dj-main li ul.dj-submenu li li li a.active {
+    color: #2398b8;
+}
+
+.dj-main li.hover ul.dj-submenu li a.dj-more:hover,
+.dj-main li:hover ul.dj-submenu li a.dj-more:hover {
+    color: #2398b8;
+}
+
+.dj-main li.hover ul.dj-submenu li a.dj-more-active,
+.dj-main li:hover ul.dj-submenu li a.dj-more-active {
+    color: #2398b8;
+}
+
+.dj-main li.hover ul.dj-submenu li a.dj-more-active:hover,
+.dj-main li:hover ul.dj-submenu li a.dj-more-active:hover {
+    color: #2398b8;
+}
+
+.dj-main li.hover li.hover a.dj-more, 
+.dj-main li.hover li.hover li.hover a.dj-more, 
+.dj-main li.hover li.hover li.hover li.hover a.dj-more, 
+.dj-main li.hover li.hover li.hover li.hover li.hover a.dj-more,
+.dj-main li:hover li:hover a.dj-more, 
+.dj-main li:hover li:hover li:hover a.dj-more, 
+.dj-main li:hover li:hover li:hover li:hover a.dj-more, 
+.dj-main li:hover li:hover li:hover li:hover li:hover a.dj-more {
+    color: #2398b8;
+}
+
+/* menus */
+
+ul.menu li a:hover, 
+ul#mainlevel li a:hover {
+	color: #2398b8 !important;
+}
+
+ul.menu li.active a,
+ul#mainlevel li a#active_menu {     
+    color: #2398b8;
+}
+
+ul.menu li ul li.active a, 
+ul.menu li ul li li.active a, 
+ul.menu li ul li li li.active a,
+ul.menu li ul li li li li.active a,
+ul.menu li ul li li li li li.active a {
+    color: #2398b8;
+}
+
+/* global */
+
+input.button, button.validate, button {
+	background: url(../images/button_bg_blue.png) top left repeat-x #4cc8ea;
+}
+
+a:link, a:visited {
+    color: #2398b8;
+}
+
+a.readon:link,
+a.readon:visited,
+ul.pagenav li a {
+	background: url(../images/button_bg_blue.png) top left repeat-x #4cc8ea;
+}
+
+table.category th {
+	background: #2398b8;
+}
+
+fieldset.filters legend {
+	color: #2398b8;
+}
+
+div.panel h3.title {
+	background: #2398b8;
+}
+
+/* modules */
+
+div.title_left {
+	background: url(../images/title_left_blue.png) no-repeat bottom left;
+}
+
+div.title_right {
+	background: url(../images/title_right_blue.png) no-repeat bottom right;
+}
+
+div.title_border {
+	background: url(../images/title_border_blue.png) repeat-x bottom left;
+}
+
+#jm-header .slide-desc-bg {
+    background: url(../images/header_desc_bg_blue.png) repeat-x top left #4bc8e9;
+}
+
+#jm-header .slide-desc-text .slide-title {
+	background: url(../images/header_desc_sep_blue.png) no-repeat bottom center;
+}
+
+.slide-desc-bg {
+	background: #2398b8;
+}

@@ -1,0 +1,117 @@
+/*********************** color changes for green colour ***********************/
+
+/* djmenu */
+
+.dj-main li.hover a.dj-up_a,
+.dj-main li:hover a.dj-up_a, 
+.dj-main li.active a.dj-up_a {
+    background: url(../images/topmenu_hover_green.png) repeat-x top left;
+}
+
+.dj-main li.hover ul.dj-submenu li a:hover,
+.dj-main li:hover ul.dj-submenu li a:hover, 
+.dj-main li ul.dj-submenu li a.active, 
+.dj-main li ul.dj-submenu li li a.active, 
+.dj-main li ul.dj-submenu li li li a.active {
+    color: #49b722;
+}
+
+.dj-main li.hover ul.dj-submenu li a.dj-more:hover,
+.dj-main li:hover ul.dj-submenu li a.dj-more:hover {
+    color: #49b722;
+}
+
+.dj-main li.hover ul.dj-submenu li a.dj-more-active,
+.dj-main li:hover ul.dj-submenu li a.dj-more-active {
+    color: #49b722;
+}
+
+.dj-main li.hover ul.dj-submenu li a.dj-more-active:hover,
+.dj-main li:hover ul.dj-submenu li a.dj-more-active:hover {
+    color: #49b722;
+}
+
+.dj-main li.hover li.hover a.dj-more, 
+.dj-main li.hover li.hover li.hover a.dj-more, 
+.dj-main li.hover li.hover li.hover li.hover a.dj-more, 
+.dj-main li.hover li.hover li.hover li.hover li.hover a.dj-more,
+.dj-main li:hover li:hover a.dj-more, 
+.dj-main li:hover li:hover li:hover a.dj-more, 
+.dj-main li:hover li:hover li:hover li:hover a.dj-more, 
+.dj-main li:hover li:hover li:hover li:hover li:hover a.dj-more {
+    color: #49b722;
+}
+
+/* menus */
+
+ul.menu li a:hover, 
+ul#mainlevel li a:hover {
+	color: #49b722 !important;
+}
+
+ul.menu li.active a,
+ul#mainlevel li a#active_menu {     
+    color: #49b722;
+}
+
+ul.menu li ul li.active a, 
+ul.menu li ul li li.active a, 
+ul.menu li ul li li li.active a,
+ul.menu li ul li li li li.active a,
+ul.menu li ul li li li li li.active a {
+    color: #49b722;
+}
+
+/* global */
+
+input.button, button.validate, button {
+	background: url(../images/button_bg_green.png) top left repeat-x #65d33e;
+}
+
+a:link, a:visited {
+    color: #49b722;
+}
+
+a.readon:link,
+a.readon:visited,
+ul.pagenav li a {
+	background: url(../images/button_bg_green.png) top left repeat-x #65d33e;
+}
+
+table.category th {
+	background: #49b722;
+}
+
+fieldset.filters legend {
+	color: #49b722;
+}
+
+div.panel h3.title {
+	background: #49b722;
+}
+
+/* modules */
+
+div.title_left {
+	background: url(../images/title_left_green.png) no-repeat bottom left;
+}
+
+div.title_right {
+	background: url(../images/title_right_green.png) no-repeat bottom right;
+}
+
+div.title_border {
+	background: url(../images/title_border_green.png) repeat-x bottom left;
+}
+
+#jm-header .slide-desc-bg {
+    background: url(../images/header_desc_bg_green.png) repeat-x top left #65d33e;
+}
+
+#jm-header .slide-desc-text .slide-title {
+	background: url(../images/header_desc_sep_green.png) no-repeat bottom center;
+}
+
+.slide-desc-bg {
+	background: #49b722;
+}

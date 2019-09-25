@@ -1,0 +1,27 @@
+.mod_related_items_thumb {
+
+}
+
+
+.mod_related_items_thumb_image {
+	float: left;
+    margin-bottom:3px;
+    margin-right: 3px;
+}
+
+.mod_related_items_thumb_title {
+	float: left;
+    margin-left:2px;
+	vertical-align: text-top;
+
+}
+
+.mod_related_items_thumb_teaser {
+    float: left;
+	font-size: 11px;
+	margin-left: 5px;
+}
+
+.mod_related_items_thumb_entry {
+	/*white-space: nowrap;*/
+}

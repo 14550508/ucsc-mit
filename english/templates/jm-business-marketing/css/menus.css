@@ -1,0 +1,107 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** MENUS STYLES ***********************/
+
+/********** default menu **********/
+
+ul.menu, 
+ul#mainlevel {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.djmodule ul.menu,
+.djmodule ul#mainlevel {
+	margin: -10px;
+	padding-bottom: 10px;
+}
+
+ul.menu li,
+ul#mainlevel li {        
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-position: outside;
+	background: none;
+}
+
+ul#mainlevel li a,
+ul.menu li a:link,
+ul.menu li a:visited {    
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    text-align: left;
+    padding: 10px 10px 12px;
+    margin: 0;
+    color: #000;
+    line-height: 18px;
+    text-decoration: none;
+    background: url(../images/menu_sep.png) no-repeat bottom center;
+    outline: none;
+}
+	
+ul.menu li a:hover, 
+ul#mainlevel li a:hover {
+   font-weight: bold !important;
+}
+
+ul.menu li.active a,
+ul#mainlevel li a#active_menu {     
+   font-weight: bold;
+}
+
+ul.menu li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 2px 0;
+    background: url(../images/menu_sep.png) no-repeat bottom center;
+}
+
+ul.menu li ul li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+ul.menu li ul li {    
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 15px;
+    list-style-position: outside;
+    border: none;
+ }
+
+ul.menu li ul li a:link,
+ul.menu li ul li a:visited,
+ul.menu li ul li.active a, 
+ul.menu li ul li.active li a, 
+ul.menu li ul li.active li li a,
+ul.menu li ul li.active li li li a,
+ul.menu li ul li.active li li li li a {    
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    text-align: left;
+    padding: 5px 10px 5px 15px;
+    margin: 0;
+    color: #000;
+    line-height: 18px;
+    text-decoration: none;
+    background: url(../images/li.png) no-repeat 0 11px;
+}
+
+ul.menu li ul li.active a, 
+ul.menu li ul li li.active a, 
+ul.menu li ul li li li.active a,
+ul.menu li ul li li li li.active a,
+ul.menu li ul li li li li li.active a {
+   font-weight: bold;
+}

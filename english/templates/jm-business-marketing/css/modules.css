@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** MODULES STYLES ***********************/
+
+/********** djmodule **********/
+
+.djmodule {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.module-content {
+	padding: 10px;
+}
+
+h3.title {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: none;
+    line-height: 20px;
+    padding: 0 10px 10px;
+    margin: 0;
+    /*background: url(../images/h3_title_sep.png) no-repeat bottom center;*/
+}
+
+.grey div.title_left {
+	background: url(../images/title_left_grey.png) no-repeat bottom left;
+}
+
+.grey div.title_right {
+	background: url(../images/title_right_grey.png) no-repeat bottom right;
+}
+
+.grey div.title_border {
+	background: url(../images/title_border_grey.png) repeat-x bottom left;
+}
+
+/********** bottom-mods **********/
+
+#jm-bottom-mods .rowcount_1 .bottom-in {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+}
+
+#jm-bottom-mods .rowcount_2 .bottom-in {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+}
+
+#jm-bottom-mods .rowcount_3 .bottom-in {
+	width: 33.3%;
+	float: left;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+}
+
+#jm-bottom-mods .rowcount_4 .bottom-in {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+}
+
+/********** dj-image-slider **********/
+
+#jm-header .slide-desc-bg {
+    opacity: 1;
+}
+
+#jm-header .slide-desc-text {
+	background: url(../images/header_desc_arrow.png) no-repeat left 50%;
+	padding: 10px 20px;
+}
+
+#jm-header .slide-desc-text .slide-title {
+	padding-bottom: 10px;
+    margin: 0 -10px 10px -10px;
+}
+
+.slide-desc-text {
+    color: #fff;
+}
+
+.slide-desc-text .slide-title {
+    color: #fff;
+    font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.slide-desc-text .slide-title a {
+    color: #fff !important;
+	text-decoration: none;
+    font-size: 14px;
+	line-height: 20px;
+}
+
+.djslider a.readmore:link,
+.djslider a.readmore:visited {
+	color: #fff;
+	font-weight: bold;
+}

@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** IE7 ************************/
+
+.registration dl dt:first-child {
+    width: auto !important;
+}
+
+input.button, button.validate, button {
+	padding: 4px 5px 2px;
+}
